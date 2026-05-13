@@ -235,3 +235,55 @@ $color: green;
          border-radius: 10px;
     }
 }
+.h1{
+    background-color: #D4E7FE;
+    width: 400px;
+    display: flex;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+    color: #171648;
+    margin: auto;
+    margin-top: 50px;
+    .activ{
+        background-color: #217BF4;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        width: 50px;
+        color: white;
+        
+    }
+}
+.block5{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    .cart{
+        border-radius: 10px;
+        width: 250px;
+        height: 300px;
+        text-align: center;
+        box-shadow: 0px 15px 15px 0px rgba(128, 128, 128, 0.174);
+        h1{
+            margin-top: 20px;
+        }
+        p{
+            margin-top: 10px;
+            color: #656464;
+        }
+        .ram{
+            
+            width: 150px;
+            margin: auto;
+            border-radius: 90px;
+            padding: 10px;
+        }
+
+    }
+}
