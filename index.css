@@ -269,4 +269,35 @@
   margin: auto;
   border-radius: 90px;
   padding: 10px;
+}
+
+.block6 {
+  background-color: #D4E7FE;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.block6 nav {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 50px;
+}
+.block6 nav p {
+  color: #217BF4;
+  font-weight: bold;
+}
+.block6 nav .p2 {
+  color: #656464;
+  font-weight: 100;
+}
+.block6 nav div {
+  display: flex;
+  align-items: center;
+  margin-left: -20px;
+}
+.block6 .img6 {
+  width: 600px;
 }/*# sourceMappingURL=index.css.map */

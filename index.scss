@@ -287,3 +287,34 @@ $color: green;
 
     }
 }
+
+.block6{
+    background-color: #D4E7FE;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    nav{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 50px;
+        p{
+            color: $mycolor;
+            font-weight: bold;
+        }
+        .p2{
+            color: #656464;
+            font-weight: 100;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            margin-left: -20px;
+        }
+    }
+    .img6{
+        width: 600px;
+    }
+}
