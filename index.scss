@@ -318,3 +318,22 @@ $color: green;
         width: 600px;
     }
 }
+.block7{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -70px;
+    margin-top: 40px;
+    div{
+        width: 270px;
+        padding: 0px;
+        h3{
+            margin-left: 54px;
+            margin-top: 10px;
+        }
+        p{
+            color: #656464;
+            margin-left: 54px;
+            margin-top: 20px;
+        }
+    }
+}

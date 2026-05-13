@@ -300,4 +300,24 @@
 }
 .block6 .img6 {
   width: 600px;
+}
+
+.block7 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -70px;
+  margin-top: 40px;
+}
+.block7 div {
+  width: 270px;
+  padding: 0px;
+}
+.block7 div h3 {
+  margin-left: 54px;
+  margin-top: 10px;
+}
+.block7 div p {
+  color: #656464;
+  margin-left: 54px;
+  margin-top: 20px;
 }/*# sourceMappingURL=index.css.map */
