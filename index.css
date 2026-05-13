@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header1 {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+.header1 h1 {
+  font-size: 50px;
+  font-family: monospace;
+  color: rgb(0, 0, 0);
+}
+.header1 .imglogo {
+  position: relative;
+  left: -10px;
+  gap: 100px;
+}
+.header1 nav {
+  display: flex;
+  gap: 70px;
+}
+.header1 nav a {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(111, 111, 111);
+}
+.header1 input {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 100px;
+  font-size: 13px;
+}
+
+.header2 {
+  background-color: rgba(212, 231, 254, 0.2588235294);
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid #D4E7FE;
+}
+.header2 nav {
+  margin-top: 100px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.header2 nav button {
+  background-color: #D4E7FE;
+  width: 150px;
+  color: #217BF4;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 11px;
+}
+.header2 nav h1 {
+  font-size: 50px;
+}
+.header2 nav p {
+  font-size: 19px;
+  color: #656464;
+}
+.header2 .header2btn {
+  padding: 20px;
+  color: white;
+  background-color: #217BF4;
+}
+.header2 .header3btn {
+  padding: 20px;
+  color: #217BF4;
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 20px;
+  border: 1px solid #217BF4;
+}/*# sourceMappingURL=index.css.map */
