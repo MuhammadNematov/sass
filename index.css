@@ -128,4 +128,51 @@
 .block2 .m1 .m2 {
   position: relative;
   left: -12px;
+}
+
+.block3 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+.block3 .q1 {
+  box-shadow: 0px 0px 10px #D4E7FE;
+  padding: 40px;
+  border-radius: 10px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 100px;
+}
+.block3 .q1 h2 {
+  display: flex;
+  gap: 10px;
+}
+.block3 .q1 .q5 {
+  color: #217BF4;
+}
+.block3 .q1 .btn {
+  padding: 20px;
+  border: none;
+  background-color: #217BF4;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+}
+.block3 .q2 {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  margin-left: -20px;
+  gap: 5px;
+}
+.block3 .q3 {
+  color: #8C8C8C;
+  font-size: 21px;
+}
+.block3 .q4 {
+  color: #217BF4;
+  font-weight: bold;
 }/*# sourceMappingURL=index.css.map */
